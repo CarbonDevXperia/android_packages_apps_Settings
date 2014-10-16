@@ -289,8 +289,9 @@
     <string name="battery_light_medium_color_title">Charging</string>
     <string name="battery_light_full_color_title">Fully charged</string>
 
-    <!-- Safe headset volume restore checkbox -->
+    <!-- Safe headset volume checkboxes -->
     <string name="safe_headset_volume_title">Safe headset volume</string>
+    <string name="safe_headset_volume_restore_title">Reduce headset volume on connection</string>
 
     <!-- Waiver -->
     <string name="cyanogenmod_waiver_title">Waiver</string>
@@ -830,7 +831,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- Set Subscription screen: label no sim -->
     <string name="sub_no_sim">No SIM</string>
-    <string name="multi_sim_entry_format" translatable="false"><xliff:g id="operator">%1$s</xliff:g>-<xliff:g id="index">%2$d</xliff:g></string>
+    <string name="multi_sim_entry_format_no_carrier" translatable="false">SIM - <xliff:g id="index">%1$d</xliff:g></string>
+    <string name="multi_sim_entry_format" translatable="false"><xliff:g id="operator">%1$s</xliff:g> - <xliff:g id="index">%2$d</xliff:g></string>
 
     <!-- Main settings screen, Multi Sim settings title for item to go into the Multi settings -->
     <string name="multi_sim_settings_title">Multi SIM</string>
@@ -938,5 +940,29 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="sar_info">Maximum SAR</string>
     <string name="maximum_head_level">Head: %1$s W/kg</string>
     <string name="maximum_body_level">Body: %1$s W/kg</string>
+
+    <!-- Profiles -->
+    <string name="profile_menu_delete_title">Delete</string>
+    <string name="profile_menu_triggers_title">Modify triggers</string>
+
+    <string name="profile_action_none">No action</string>
+    <string name="profile_action_disabled">Disable</string>
+    <string name="profile_action_enable">Enable</string>
+
+    <string name="profile_tabs_wifi">Wi-Fi</string>
+    <string name="profile_tabs_bluetooth">Bluetooth</string>
+    <string name="profile_tabs_nfc">NFC</string>
+
+    <string name="profile_setup_setup_triggers_title">Step 1: Add triggers</string>
+    <string name="profile_setup_setup_triggers_title_config">Modify triggers: <xliff:g id="profile_name">%1$s</xliff:g></string>
+
+    <string name="profile_setup_actions_title">Step 2: Setup actions</string>
+    <string name="profile_setup_actions_title_config">Reconfigure actions</string>
+
+    <string name="no_bluetooth_triggers">No Bluetooth triggers available</string>
+    <string name="no_wifi_triggers">No Wi-Fi triggers available</string>
+
+    <string name="profile_setup_setup_triggers_description">Please select triggers which will activate this profile</string>
+    <string name="profile_setup_actions_description">Now configure what happens when the profile is activated</string>
 
 </resources>
